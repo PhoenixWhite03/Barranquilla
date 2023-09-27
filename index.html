@@ -6,12 +6,17 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Barranquilla</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="Css/main.css">
 </head>
 <body>
 <header class="header">
     <nav class="main-nav">
         <h1 class="main-title">Barranquilla</h1>
+        <input id="menu-checkbox" class="menu-checkbox" type="checkbox">
+        <label class="menu-icon" for="menu-checkbox">
+            <i class='bx bx-menu'></i>
+        </label>
         <ul class="link-list">
             <li><a class="nav-link" href="#location">Ubicación</a></li>
             <li><a class="nav-link" href="#weather">Clima</a></li>
@@ -23,19 +28,47 @@
 
 <main class="main">
     <section id="location" class="section">
-        Ubicación
+        <img class="image-container" src="Assets/location%20(Personalizado).png" alt="ubicación">
+        <div class="text-container">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet blanditiis corporis cupiditate dignissimos iusto laboriosam odio placeat quos vel veritatis.
+        </div>
     </section>
 
     <section id="weather" class="section">
-        Clima
+        <img class="image-container" src="Assets/weather%20(Personalizado).jpg" alt="clima">
+        <div class="text-container">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem molestiae nobis odit reprehenderit repudiandae sequi! Accusantium asperiores dolor obcaecati sapiente!
+        </div>
     </section>
 
     <section id="tourism" class="section">
-        Turismo
+        <div class="img-album" id="tourism-album">
+            <img id="img0" class="image-container" src="Assets/Tourism/catedral%20(Personalizado).jpg" alt="catedral">
+            <img id="img1" class="image-container" src="Assets/Tourism/ventana-al-mundo%20(Personalizado).jpg" alt="ventana al mundo">
+            <img id="img2" class="image-container" src="Assets/Tourism/aleta-de-tiburon%20(Personalizado).jpg" alt="aleta de tiburón">
+        </div>
+        <div class="text-container">
+            <h2 class="section-title">Sitios turistícos</h2>
+
+            <div class="section-body" id="tourism-place0">
+
+            </div>
+
+            <div class="section-body" id="tourism-place1">
+
+            </div>
+
+            <div class="section-body" id="tourism-place2">
+
+            </div>
+        </div>
     </section>
 
     <section id="sports" class="section">
-        Deportes
+        <img class="image-container" src="Assets/sports%20(Personalizado).jpg" alt="estadio">
+        <div class="text-container">
+
+        </div>
     </section>
 </main>
 
