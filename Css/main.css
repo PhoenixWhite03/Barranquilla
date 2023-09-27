@@ -151,3 +151,27 @@ deepl-input-controller {
     border-radius: 50px;
     margin: 0.809rem 0;
 }
+
+@media (max-width: 860px) {
+
+    .section {
+        font-size: 12px;
+
+        grid-template:
+        "image" auto
+        "text" auto /
+        20rem;
+
+        grid-gap: 0.5rem;
+    }
+
+    .text-container {
+        gap: 1.5rem;
+        padding: 1.5rem;
+    }
+
+    .image-container {
+        width: 20rem;
+        height: auto;
+    }
+}
