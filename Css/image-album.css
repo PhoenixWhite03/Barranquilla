@@ -1,0 +1,33 @@
+.img-album {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+}
+
+.album-btn {
+    position: absolute;
+    color: rgba(255, 255, 255, 50%);
+    background: rgba(0, 0, 0, 50%);
+
+    width: 2rem;
+    height: 2rem;
+    border: 0;
+    border-radius: 50%;
+}
+
+.album-btn i {
+    font-size: 2rem;
+}
+
+.album-btn:hover {
+    color: white;
+}
+
+.right-album-btn {
+    right: 10px;
+}
+
+.left-album-btn {
+    left: 10px;
+}
