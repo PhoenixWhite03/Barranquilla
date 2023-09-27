@@ -56,10 +56,6 @@ deepl-input-controller {
         100%;
 }
 
-.grid-container > * {
-    /*outline: solid #151515;*/
-}
-
 .header {
     grid-area: nav;
 }
