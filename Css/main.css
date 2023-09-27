@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #EAD637;
+    --secondary-color: #343434;
+    --third-color: white;
+    --text-primary-color: #191716;
+    --text-secondary-color: #f2f2f2;
+    --linkHover-color: #2D7DD2;
+    --linkActive-color: #6EFAFB;
+
+    --max-width: 1920px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', Arial sans-serif;
+    font-size: 1rem;
+    color: var(--text-primary-color);
+    background-color: var(--third-color);
+
+    min-height: 100%;
+}
+
+a {
+    color: var(--text-primary-color);
+    text-decoration: none;
+    position: relative;
+}
+
+a:hover {
+    color: var(--linkHover-color);
+}
+
+a:active {
+    color: var(--linkActive-color);
+}
+
+deepl-input-controller {
+    display: none;
+}
